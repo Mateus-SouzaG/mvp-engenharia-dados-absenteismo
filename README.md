@@ -79,6 +79,8 @@ As duas colunas adicionais são metadados. A diferença entre as 21 colunas do C
 
 ![Validação da tabela Bronze com 740 linhas e 23 colunas](evidencias_mvp/03_validacao_bronze.png)
 
+Após a carga da Bronze, o notebook [02_qualidade_silver.py](notebooks/02_qualidade_silver.py) verifica a qualidade dos dados, converte os tipos e grava a tabela workspace.silver.absenteeism_clean, utilizada na modelagem Gold.
+
 ## 4. Modelagem e Catálogo
 
 **Código:** [03_modelagem_gold.py](notebooks/03_modelagem_gold.py).
